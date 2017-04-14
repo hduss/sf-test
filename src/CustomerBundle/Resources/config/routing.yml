@@ -2,6 +2,9 @@ page_home:
     path: /
     defaults: { _controller: CustomerBundle:Page:home }
 
+logout:
+    path: /logout
+
 page_contact:
     path: /contact
     defaults: { _controller: CustomerBundle:Page:contact }
