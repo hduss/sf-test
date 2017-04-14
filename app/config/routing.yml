@@ -1,3 +1,9 @@
+
+login:
+    path:    /login
+    defaults: { _controller: AppBundle:Security:login }
+
+
 customer:
     resource: "@CustomerBundle/Resources/config/routing.yml"
 
